@@ -54,11 +54,11 @@ if __name__=='__main__':
     lista_ordenada = sorted(list(conjunto_inicial))
     
     #Medir el tiempo con busqueda ingenua
-   # inicio = time.time()
-    #for objetivo in lista_ordenada:
-     #   busqueda_ingenua(lista_ordenada, objetivo)
-    #fin = time.time()
-    #print(f"Tiempo de busqueda ingenua: {fin - inicio} segundos.")
+    inicio = time.time()
+    for objetivo in lista_ordenada:
+        busqueda_ingenua(lista_ordenada, objetivo)
+    fin = time.time()
+    print(f"Tiempo de busqueda ingenua: {fin - inicio} segundos.")
        
     
     #Medir el tiempo de busqueda binaria
