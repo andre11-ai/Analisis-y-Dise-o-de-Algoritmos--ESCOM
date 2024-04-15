@@ -1,0 +1,25 @@
+Propón una estrategia voraz que resuelva lo siguiente.
+
+Proceso		Tamaño (KB)		Bloque asignado
+1				212				
+2				417
+3				112
+4				426
+
+
+Memoria 
+1 = 100KB
+2 = 500KB
+3 = 200KB
+4 = 300KB
+5 = 600KB
+
+Restricciones 
+1. No es posible dividir la memoria de los procesosen dos o más bloques.
+2. Si es posible usar un mismo bloque para almacenar des o mas procesos
+	Cuando un proceso ocupe un bloque de memoria, deberá ajustarse el tamaño del bloque.
+
+
+Completar la tabla de procesos
+¿Hay procesos sin bloque asignado?
+¿Cuanta memoria queda libre?
