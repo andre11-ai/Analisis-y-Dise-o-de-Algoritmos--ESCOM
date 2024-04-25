@@ -12,7 +12,7 @@ def quick_sort(arr):
 
 
 # Generar un arreglo de longitud n con números aleatorios
-n = 100000     #AQUI SE FUE MODIFICANDO LOS VALORES PARA DETERMINAR EL TIEMPO
+n = 10000     #AQUI SE FUE MODIFICANDO LOS VALORES PARA DETERMINAR EL TIEMPO
 arr = [random.randint(1, 100) for _ in range(n)]
 
 print("Arreglo original:", arr)
