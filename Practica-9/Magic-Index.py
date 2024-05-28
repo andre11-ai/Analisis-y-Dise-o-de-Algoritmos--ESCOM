@@ -14,7 +14,7 @@ def indice_magico(A):
   return -1
 
 # Aqui se modificara para meter el indece(Matriz) 
-A = [-1, 0, 1, 2, 4, 10]
+A = [-1, 0, 1, 2]
 indice = indice_magico(A)
 if indice != -1:
   print(f"Índice mágico: {indice}")
